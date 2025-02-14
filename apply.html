@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply for Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Apply for a Website</h1>
+    </header>
+
+    <section class="form-container">
+        <form action="mailto:mineblade3535@gmail.com" method="post" enctype="text/plain">
+            <label for="web-type">Website Type:</label>
+            <select id="web-type" name="Website Type">
+                <option>Business Website</option>
+                <option>E-commerce</option>
+                <option>Portfolio</option>
+                <option>Blog</option>
+            </select>
+
+            <label for="budget">Budget:</label>
+            <select id="budget" name="Budget">
+                <option>$50</option>
+                <option>$75</option>
+                <option>$100</option>
+            </select>
+
+            <label for="features">Additional Features:</label>
+            <textarea id="features" name="Features" placeholder="Describe any extra features..."></textarea>
+
+            <button type="submit">Apply</button>
+        </form>
+        <button onclick="nextPage('payment.html')">Next</button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+  </html
